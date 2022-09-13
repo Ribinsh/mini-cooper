@@ -1,0 +1,201 @@
+.head{
+    width: 100%;
+    height: 463px;
+    background-image: url("mini 3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    width: 75px;
+}
+.navbar{
+    width: 100%;
+}
+.navbar-nav {
+    font-size: 11px;
+    font-weight: bold;
+    
+}
+ .navbar-toggler {
+    color: white;
+}
+
+.fa-solid {
+    color: white;
+    font-weight: lighter;
+    font-size: 25px;
+   
+}
+.lens{
+    display: flex;
+    justify-content: right;
+}
+.car1 img{
+    width: 100%;
+}
+.car2 img{
+    width: 100%;
+}
+.car3 img{
+    width: 100%;
+}
+.card{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    width: 45%;
+    
+}
+.button{
+    color: white;
+    font-weight: bold;
+    background-color:rgb(0, 183, 255) ;
+    height: 50px;
+    width: 300px;
+    border: 2px solid rgb(0, 183, 255);
+    
+}
+button:hover{
+    color: black;
+    background-color: white;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.find{
+    font-family: serif;
+}
+.dealer{
+   min-height: 110px;
+    
+}
+.locat{
+    font-size: 17px;
+    color: black;
+
+}
+.locat:hover{
+    color: black;
+}
+.news{
+    height: 124px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mini{
+    font-size: 5vw;
+    color: white;
+    font-family: serif;
+    
+}
+.hi{
+    font-family: serif;
+    font-size: 3vw;
+    
+}
+.heading{
+    width: 85%;
+    
+    padding-left: 10%;
+}
+.beginning{
+    padding-top: 20px;
+    width:80% ;
+    padding-left: 5%;
+    padding-right: 17%;
+}
+.beginning button{
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    border: 3px solid white;
+}
+.beginning button:hover{
+    background-color: black;
+    color: white;
+}
+.sect{
+    /* min-height: 724px; */
+    margin-top: 75px;
+}
+.footer-text{
+    padding-top: 40px;
+    font-family: serif;
+    font-weight: bolder;
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 30px;
+    
+}
+.footer{
+    min-height: 472px;
+}
+.contact{
+    margin-top: 8vh;
+    color: black;
+    border-bottom: black;
+    display: flex;
+    justify-content: center;
+}
+.gray{
+    height: 32px;
+    width: 100%;
+    margin-top: 8vh;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+}
+
+.contact ul a {
+color: black;
+
+}
+.copyright{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.copyright  img{
+    width: 120px;
+    padding-top: 40px;
+}
+.copyright h6{
+    font-size: 12px;
+}
+
+
+.urban{
+    text-decoration: none;    
+    color: white;                                                                                                                          
+
+
+}
+
+    
+
+@media(max-width:1230px){
+    .beginning{width: 100%;}
+    .finalnav{display: none;}
+      
+}
+@media(max-width:1000px){
+    .beginning{padding-top: 150px;
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin: 0%;}
+
+}
+ @media(max-width:460px) {
+    .beginning button{width: 100%;}
+ }  
